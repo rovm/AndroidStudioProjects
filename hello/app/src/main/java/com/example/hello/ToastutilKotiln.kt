@@ -1,3 +1,4 @@
+@file:JvmName("ToastUtil")
 package com.example.hello
 
 import android.widget.Toast

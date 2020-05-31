@@ -32,13 +32,13 @@ public class ControlJavaActivity extends AppCompatActivity {
                 //if, else if, else 문으로 2의 배수, 3의 배수를 체크해 서로 다른 토스트 메세지를 보여준다.
                 if (number % 2 == 0) {
 //                    Toast.makeText(getApplicationContext(), "" + number + "는 2의 배수입니다.", Toast.LENGTH_SHORT).show();
-                    new ToastUtilJava().toastShort("" + number + "는 2의 배수입니다.");
+                    ToastUtilJava.toastShort("" + number + "는 2의 배수입니다.");
                 } else if (number % 3 == 0) {
 //                    Toast.makeText(getApplicationContext(), "" + number + "는 3의 배수입니다.", Toast.LENGTH_SHORT).show();
-                    new ToastUtilJava().toastShort("" + number + "는 3의 배수입니다.");
+                    ToastUtilJava.toastShort("" + number + "는 3의 배수입니다.");
                 } else {
 //                    Toast.makeText(getApplicationContext(), "" + number, Toast.LENGTH_SHORT).show();
-                    new ToastUtilJava().toastShort("" + number);
+                    ToastUtil.toastShort("" + number);
                 }
 
                 switch (number) {
