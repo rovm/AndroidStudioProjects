@@ -96,3 +96,12 @@ fun loopContinueTest(){
     }
 }
  */
+
+/*
+4.6.01 함수선언 방법
+kotlin
+fun function(){} // 기본형
+fun function(age:int){} // 기본형
+fun function(age:int):int int{ return 0} // return 타입이 int형인 경우
+코틀린의 경우 리턴값이 없는 경우 void는 Unit 타입으로 있는데 생략가능
+*/
