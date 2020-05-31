@@ -43,3 +43,56 @@ class ControlKotlinActivity : AppCompatActivity() {
         }
     }
 }
+
+/*
+05 kotlin 반복문 활용
+for(item in collection){
+    println(item)
+} // Java 의 향상된 포문과 비슷
+
+for(i in 0..100){
+    println(i)
+} // 특정값을 반복하기
+
+val collection = mutableListOf<String>("apple","banana")
+for((index, value) in collection.withIndex()){
+    println("the element at $index is $value")
+}
+
+var x = 0
+while(x < 4){
+    x++
+}
+
+do{
+    val y = retrieveData()
+}while(y != null) // do 블럭 내부의 변수 y에 접근가능
+// 여기서부터는 y에 접근 불가
+
+// 레이블 @는 break, return 이후 어디로 점프하는지 마킹하고 이동
+loop1@ while(true){
+    var x = retrieveData()
+
+    if(x == null) break@loop1
+    else{
+        loop2@ while(true){
+            var y = getData()
+            if(y == null) break@loop2
+        }
+    }
+}
+
+@loop for(i in 1..100){
+    for(j in 1..100){
+        if(...) break@loop
+    }
+}
+
+@Test
+fun loopContinueTest(){
+    for(i in 1..10){
+        if(i % 2 == 0) continue
+        print(i)
+    }
+}
+ */
