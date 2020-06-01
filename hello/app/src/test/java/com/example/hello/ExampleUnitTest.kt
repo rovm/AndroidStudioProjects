@@ -13,5 +13,6 @@ class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
+        //단위 테스트를 실행가능
     }
 }
