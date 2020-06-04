@@ -10,7 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity"></activity>
+        <activity android:name=".PropertyKotlin"></activity>
+        <activity android:name=".PropertyJava" />
+        <activity android:name=".FieldJava" />
+        <activity android:name=".Main2Activity" />
         <activity android:name=".Person" />
         <activity android:name=".PersonJava" />
         <activity
