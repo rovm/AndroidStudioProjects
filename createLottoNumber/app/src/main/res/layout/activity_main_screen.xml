@@ -7,11 +7,22 @@
     tools:context=".MainScreen">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/setBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="goSettingScreen"
         android:text="로또 번호 생성하기"
+        app:layout_constraintBottom_toTopOf="@+id/goWebBtn"
+        app:layout_constraintStart_toStartOf="@+id/goWebBtn" />
+
+    <Button
+        android:id="@+id/goWebBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="118dp"
+        android:onClick="callWeb"
+        android:text="로또 당첨 확인하기"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
