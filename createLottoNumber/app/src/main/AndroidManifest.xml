@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainScreen"
-                  android:label="로또 번호 생성기">
+        <activity
+            android:name=".MainScreen"
+            android:label="로또 번호 생성기">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,10 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ResultScreen" />
-        <activity android:name=".SettingScreen"
-                  android:label="번호 생성 절정"/>
-        <activity android:name=".MainActivity"/>
-
+        <activity
+            android:name=".SettingScreen"
+            android:label="번호 생성 절정" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

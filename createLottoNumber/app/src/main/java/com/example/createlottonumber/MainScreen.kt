@@ -26,7 +26,7 @@ class MainScreen : AppCompatActivity() {
     }
 
     fun callWeb(view: View){
-        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://google.com"))
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.dhlottery.co.kr/gameResult.do?method=byWin&wiselog=H_C_1_1"))
         startActivity(intent)
     }
 }
