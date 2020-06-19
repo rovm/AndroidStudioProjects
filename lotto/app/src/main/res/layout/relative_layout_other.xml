@@ -3,18 +3,16 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="false"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="false"
-        android:text="Button" />
+        android:layout_centerInParent="true"
+        android:text="Button1" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_toRightOf="@id/button1"
+        android:text="Button2" />
 </RelativeLayout>
