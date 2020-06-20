@@ -3,4 +3,23 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!--결과하면에서 사용할 컬러-->
+    <color name="colorPrimaryResult">#2196F3</color>
+    <color name="colorPrimaryDarkResult">#512DA8</color>
+    <color name="colorAccentResult">#FF4081</color>
+
+    <!--별자리 입력화면에서 사용할 컬러-->
+    <color name="colorPrimaryConstallation">#673AB7</color>
+    <color name="colorPrimaryDarkConstallation">#512DA8</color>
+    <color name="colorAccentConstallation">#7E57C2</color>
+    <color name="colorContentConstallation">#556080</color>
+    <color name="colorButtonConstallation">#673AB7</color>
+
+    <!--이름 입력화면에서 사용할 컬러-->
+    <color name="colorPrimaryName">#F9A11F</color>
+    <color name="colorPrimaryDarkName">#EF6C00</color>
+    <color name="colorAccentName">#FFC107</color>
+    <color name="colorContentName">#FCD837</color>
+    <color name="colorButtonName">#F9A11F</color>
 </resources>

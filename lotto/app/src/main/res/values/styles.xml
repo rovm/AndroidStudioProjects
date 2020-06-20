@@ -8,4 +8,31 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--결과화면 테마-->
+    <style name="AppTheme.Result" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryResult</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkResult</item>
+        <item name="colorAccent">@color/colorAccentResult</item>
+    </style>
+
+    <!--별자리 입력화면 테마-->
+    <style name="AppTheme.Constallation" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryConstallation</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkConstallation</item>
+        <item name="colorAccent">@color/colorAccentConstallation</item>
+        <item name="colorButtonNormal">@color/colorButtonConstallation</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--별자리 입력화면 테마-->
+    <style name="AppTheme.Name" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryName</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkName</item>
+        <item name="colorAccent">@color/colorAccentName</item>
+        <item name="colorButtonNormal">@color/colorButtonName</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 </resources>
