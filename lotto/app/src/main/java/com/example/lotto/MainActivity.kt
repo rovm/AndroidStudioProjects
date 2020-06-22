@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         randomCard.setOnClickListener{
             val intent = Intent(this, ResultActivity::class.java)
 
-            intent.putIntegerArrayListExtra("result", ArrayList(getRandomLottoNumbers()))
-
+//            intent.putIntegerArrayListExtra("result", ArrayList(getRandomLottoNumbers()))
+            intent.putIntegerArrayListExtra("result", ArrayList(getShuffleLottoNumbers()))
             startActivity(intent)
         }
 
@@ -50,5 +50,17 @@ class MainActivity : AppCompatActivity() {
             lottoNumbers.add(number)
         }
         return lottoNumbers
+    }
+
+    fun getShuffleLottoNumbers(): MutableList<Int>{
+        val list = mutableListOf<Int>()
+
+        for(number in 1..45){
+            list.add(number)
+        }
+
+        list.shuffle()
+
+        return list.subList(0,6)
     }
 }
